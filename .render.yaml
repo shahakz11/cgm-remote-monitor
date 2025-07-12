@@ -6,13 +6,14 @@ services:
     startCommand: "node server.js"
     envVars:
       - key: MONGO_CONNECTION
-        value: mongodb+srv://<db_username>:<db_password>@cluster0.wevnwkc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+        value: mongodb+srv://<db_username>:<db_password>@cluster0.wevnwkc.mongodb.net/nightscout?retryWrites=true&w=majority&appName=Cluster0
       - key: API_SECRET
         value: SecretShahak
       - key: DISPLAY_UNITS
         value: mg/dl
       - key: ENABLE
         value: careportal devicestatus rawbg
+
 
 
 
