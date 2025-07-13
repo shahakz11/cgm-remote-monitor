@@ -2,7 +2,6 @@ services:
   - type: web
     name: nightscout
     env: node
-    buildCommand: ""
     startCommand: "node server.js"
     envVars:
       - key: MONGO_CONNECTION
