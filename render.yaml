@@ -13,3 +13,6 @@ services:
         value: mg/dl
       - key: ENABLE
         value: careportal devicestatus rawbg
+      - key: PORT
+        value: 10000
+
