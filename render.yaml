@@ -12,6 +12,6 @@ services:
       - key: DISPLAY_UNITS
         value: mg/dl
       - key: ENABLE
-        value: careportal devicestatus rawbg
+        value: careportal devicestatus rawbg bgnow basal bolus profile dbsize direction delta upbat entries
       - key: PORT
         value: $PORT
