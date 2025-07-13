@@ -15,4 +15,4 @@ services:
       - key: ENABLE
         value: careportal devicestatus rawbg
       - key: PORT
-        value: 1337
+        value: $PORT
